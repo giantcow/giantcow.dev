@@ -10,7 +10,6 @@ import {
   Tooltip,
   Typography,
 } from "@mui/material";
-import PomfImage from "/pomf.png";
 import OtterImage from "/3.png";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
