@@ -11,6 +11,7 @@ import {
   Typography,
 } from "@mui/material";
 import PomfImage from "/pomf.png";
+import OtterImage from "/3.png";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
 interface Interest {
@@ -92,7 +93,7 @@ distributions are really distributions of GNU/Linux.
             Hiya!
           </Typography>
           <Avatar
-            src={PomfImage}
+            src={OtterImage}
             variant="rounded"
             sx={{ width: 64, height: 64, transform: "scaleX(-1)" }}
           />
@@ -101,12 +102,7 @@ distributions are really distributions of GNU/Linux.
         <Box paddingLeft="1em">
           <Stack direction="column" spacing={2}>
             <Stack direction="row" spacing={1}>
-              <Typography>I'm Kayo</Typography>
-              <Typography variant="subtitle2">
-                <code>
-                  ( <i>"Kay-oh"</i> / <i>"Kae-yo"</i> )
-                </code>
-              </Typography>
+              <Typography>I'm Caymon!</Typography>
             </Stack>
             <Typography>
               A full-stack developer by trade, primarily focusing on streaming
